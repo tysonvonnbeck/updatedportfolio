@@ -1,0 +1,101 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url("images/background.jpg");
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	/* min-height: 100vh; */
+	min-width: 100vw;
+}
+
+.card-name {
+	color:black;
+	margin: 10px;
+}
+
+.card-body {
+	padding: 20px;
+}
+
+
+
+container {
+	min-height: 75vh;
+	padding: 20px;
+}
+
+.navbar-right > li.nav-link {
+	float: inline-end, right;
+}
+
+.navbar-brand {
+	color: white;
+	height: auto;
+}
+
+.mytext {
+	padding-top: 20px;
+	padding-right: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+	img {
+		display: block;
+		float: left;
+		margin: 0 auto 20px;
+ 	}
+}
+
+
+
+.spacer {
+	flex: 1;
+	margin-bottom: 50px;
+}
+
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: grey;
+	text-align: center;
+	border-top: 5px solid darkgrey;
+}
+.text-center {
+	max-height: 10vh;
+	padding: 0.1em 0.1em;
+}
+
+#name, #email, #subject {
+  Display:flex;
+  flex-wrap: wrap;
+}
+
+textarea {
+  width: 100%;
+}
+
+.row {
+	margin: 8px -16px;
+}
+
+.row > .column {
+	padding: 8px;
+	  }
+
+.column {
+	float: left;
+	width: 50%;
+}
+
+.webLinks {
+	display: flex;
+	flex-direction: row;
+	
+}
